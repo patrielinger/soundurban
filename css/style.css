@@ -1,0 +1,100 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "Fredoka", sans-serif;
+}
+h1{
+	margin-left: 20px;
+}
+.milanesa{
+	width: 90%;
+	margin: auto;
+}
+.navbar-brand{
+	font-size: 1.5rem !important;
+}
+.nav-link{
+	font-size: 1.3rem !important;
+}
+header p{
+	background: #000;
+	color: #fff;
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+}
+.container{
+	margin: auto;
+}
+.navbar{
+	padding: 0 !important;
+}
+.catalogo{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+.portada{
+	width: 20%;
+	height: 15%;
+	margin: 20px;
+	display: inline-block;
+	overflow: hidden;
+}
+.portada a{
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: #000;
+}
+.imgg img{
+	width: 100%;
+	transition: transform 0.5s ease;
+}
+.off{
+	padding: 10px;
+	position: relative;
+	bottom: 43px;
+	left: 0px;
+	z-index: 2;
+	background: #2E8AFC;
+	border-radius: 0;
+	display: inline-block;
+	color: #fff;
+}
+.imgg{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.contenido{
+	position: relative;
+	bottom: 30px;
+}
+.titulo{
+	font-size: 1.3rem;
+	font-weight: 600;
+	height: 1.3rem;
+}
+.artistas{
+	font-size: 1.2rem;
+	height: 1rem;/*
+	position: relative;
+	top: 15px;*/
+}
+.precio{
+	font-size: 1.4rem;
+	font-weight: 500;
+	width: 100%;
+}
+.oferta{
+	text-decoration: line-through;
+	color: #959595 !important;
+	margin-right: 10px;
+}
+.portada a:hover{
+	color: #000;
+}
+.portada a:hover img{
+	transform: scale(1.08);
+}
